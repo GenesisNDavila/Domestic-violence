@@ -1,0 +1,34 @@
+/*Start with the background color*/
+
+*{
+	box-sizing: border-box;
+	background-color: whitesmoke;
+}
+.container{
+	max-width: 1200px;
+	margin: auto;
+}
+img{
+	align-items: center;
+}
+.map{
+	max-width: 600px;
+}
+
+/*Mobile first*/
+
+body,
+html {
+	font-size: 16px;
+	font-family: arial, serif;
+}
+
+body{
+	background-color: whitesmoke;
+	margin: 20px;}
+
+/*desktop mode*/
+
+@media(min-width: 780px){
+
+}
